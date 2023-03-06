@@ -3,7 +3,9 @@ ESP-IDF component for 4x3 keypad using a pcf8574 io expander. Meant for the Elec
 ## Disclaimer
 This was made for educational purposes only and should not be used for production
 ## Example use
-'''
+
+```
+
 #include <driver/i2c.h>
 #include <freertos/task.h>
 #include <ep_keypad.h>
@@ -86,7 +88,7 @@ esp_err_t i2c_master_init(void){
 
     return i2c_driver_install(I2C_NUM_0, conf.mode, 0, 0, 0);
 }
-''' 
+```
 ## Author
 Github: [abdellah2288](https://github.com/abdellah2288)
 ## License
