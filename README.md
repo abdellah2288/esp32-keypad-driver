@@ -1,5 +1,6 @@
 # ep_keypad
 ESP-IDF component for 4x3 keypad using a pcf8574 io expander. Meant for the ElectroPower Smart House project.
+This component has buffer management features such as buffer timeout.
 ## Disclaimer
 This was made for educational purposes only and should not be used for production
 ## Example use
