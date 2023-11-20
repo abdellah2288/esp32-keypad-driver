@@ -1,4 +1,4 @@
-# ep_keypad
+# An ESP32 PCF8574 keypad Driver
 ESP-IDF component for 4x3 keypad using a pcf8574 io expander. Meant for the ElectroPower Smart House project.
 This component has buffer management features such as buffer timeout.
 ## Disclaimer
